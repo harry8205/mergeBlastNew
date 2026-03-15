@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Merge Blast</string>
+    <string name="play">PLAY</string>
+    <string name="daily_quest">Daily Quest</string>
+    <string name="daily_reward">Daily Reward</string>
+    <string name="shop">Shop</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="game_over">Game Over</string>
+    <string name="your_score">Your Score</string>
+    <string name="highest_block">Highest Block</string>
+    <string name="restart">Play Again</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="not_enough_coins">Not enough coins!</string>
+    <string name="hammer">Hammer</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="coins">Coins</string>
+    <string name="claim">Claim</string>
+    <string name="next">NEXT</string>
+    <string name="combo">COMBO</string>
+    <string name="level">Level</string>
+    <string name="exp">EXP</string>
+</resources>
