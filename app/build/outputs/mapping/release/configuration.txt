@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /Users/haris/Downloads/MergeBlastGame/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.2.0
+# The proguard configuration file for the following section is /Users/haris/Documents/GitHub/mergeBlastNew/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.2.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -117,8 +117,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Users/haris/Downloads/MergeBlastGame/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.2.0
-# The proguard configuration file for the following section is /Users/haris/Downloads/MergeBlastGame/app/proguard-rules.pro
+# End of content from /Users/haris/Documents/GitHub/mergeBlastNew/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.2.0
+# The proguard configuration file for the following section is /Users/haris/Documents/GitHub/mergeBlastNew/app/proguard-rules.pro
 # MergeBlast ProGuard Rules
 
 # Keep Room entities
@@ -157,8 +157,8 @@
 -keepattributes SourceFile,LineNumberTable
 -renamesourcefileattribute SourceFile
 
-# End of content from /Users/haris/Downloads/MergeBlastGame/app/proguard-rules.pro
-# The proguard configuration file for the following section is /Users/haris/Downloads/MergeBlastGame/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# End of content from /Users/haris/Documents/GitHub/mergeBlastNew/app/proguard-rules.pro
+# The proguard configuration file for the following section is /Users/haris/Documents/GitHub/mergeBlastNew/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
@@ -255,7 +255,7 @@
 -keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 
-# End of content from /Users/haris/Downloads/MergeBlastGame/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# End of content from /Users/haris/Documents/GitHub/mergeBlastNew/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
 # The proguard configuration file for the following section is /Users/haris/.gradle/caches/transforms-3/5fa7af8c7e76568fc7a61eee1d6b1baa/transformed/navigation-common-2.7.6/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
@@ -661,7 +661,7 @@
   public onWindowLayoutChanged(android.os.IBinder, androidx.window.sidecar.SidecarWindowLayoutInfo);
 }
 # End of content from /Users/haris/.gradle/caches/transforms-3/effa9a15e5604254e6eb4584057c655b/transformed/window-1.0.0/proguard.txt
-# The proguard configuration file for the following section is /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/proguard.txt
+# The proguard configuration file for the following section is /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -679,7 +679,7 @@
   <methods>;
 }
 
-# End of content from /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/proguard.txt
+# End of content from /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/proguard.txt
 # The proguard configuration file for the following section is /Users/haris/.gradle/caches/transforms-3/a26963a012421e81ebd6cbd1040bb1c5/transformed/savedstate-1.2.1/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #

@@ -9,82 +9,82 @@
 9        android:targetSdkVersion="36" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:4:5-67
-11-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:4:22-64
+11-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.VIBRATE" />
-12-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:5:5-66
-12-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:5:22-63
+12-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:5:5-66
+12-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:5:22-63
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 13-->[androidx.media3:media3-common:1.2.1] /Users/haris/.gradle/caches/transforms-3/4ddcbf51dc0260e82735be61ea73e5e5/transformed/media3-common-1.2.1/AndroidManifest.xml:22:5-79
 13-->[androidx.media3:media3-common:1.2.1] /Users/haris/.gradle/caches/transforms-3/4ddcbf51dc0260e82735be61ea73e5e5/transformed/media3-common-1.2.1/AndroidManifest.xml:22:22-76
 14
 15    <permission
-15-->[androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+15-->[androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 16        android:name="com.mergeblast.game.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-16-->[androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+16-->[androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 17        android:protectionLevel="signature" />
-17-->[androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+17-->[androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 18
 19    <uses-permission android:name="com.mergeblast.game.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-19-->[androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-19-->[androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+19-->[androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:7:5-35:19
+21-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:7:5-35:19
 22        android:name="com.mergeblast.MergeBlastApp"
-22-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:8:9-38
+22-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:8:9-38
 23        android:allowBackup="true"
-23-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:9:9-35
+23-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:9:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+24-->[androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:hardwareAccelerated="true"
-27-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:15:9-43
+27-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:15:9-43
 28        android:icon="@mipmap/ic_launcher"
-28-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:10:9-43
+28-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:10:9-43
 29        android:label="@string/app_name"
-29-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:11:9-41
+29-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:11:9-41
 30        android:largeHeap="true"
-30-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:16:9-33
+30-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:16:9-33
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:12:9-54
+31-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:12:9-54
 32        android:supportsRtl="true"
-32-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:13:9-35
+32-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:13:9-35
 33        android:testOnly="true"
 34        android:theme="@style/Theme.MergeBlast" >
-34-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:14:9-48
+34-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:14:9-48
 35        <activity
-35-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:18:9-27:20
+35-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:18:9-27:20
 36            android:name="com.mergeblast.ui.SplashActivity"
-36-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:19:13-46
+36-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:19:13-46
 37            android:exported="true"
-37-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:20:13-36
+37-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:20:13-36
 38            android:screenOrientation="portrait"
-38-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:22:13-49
+38-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:22:13-49
 39            android:theme="@style/Theme.MergeBlast.Splash" >
-39-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:21:13-59
+39-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:21:13-59
 40            <intent-filter>
-40-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:23:13-26:29
+40-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:23:13-26:29
 41                <action android:name="android.intent.action.MAIN" />
-41-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:24:17-69
-41-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:24:25-66
+41-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:24:17-69
+41-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:24:25-66
 42
 43                <category android:name="android.intent.category.LAUNCHER" />
-43-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:25:17-77
-43-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:25:27-74
+43-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:25:17-77
+43-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:25:27-74
 44            </intent-filter>
 45        </activity>
 46        <activity
-46-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:29:9-33:55
+46-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:29:9-33:55
 47            android:name="com.mergeblast.ui.MainActivity"
-47-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:30:13-44
+47-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:30:13-44
 48            android:exported="false"
-48-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:31:13-37
+48-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:31:13-37
 49            android:screenOrientation="portrait"
-49-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:32:13-49
+49-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:32:13-49
 50            android:windowSoftInputMode="adjustPan" />
-50-->/Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:33:13-52
+50-->/Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:33:13-52
 51
 52        <uses-library
 52-->[androidx.window:window:1.0.0] /Users/haris/.gradle/caches/transforms-3/effa9a15e5604254e6eb4584057c655b/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40

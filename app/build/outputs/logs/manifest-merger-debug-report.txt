@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.databinding:viewbinding:8.2.0] /Users/haris/.gradle/caches/transforms-3/ae1286c42f35cbb368d65f9ce10ff9f8/transformed/viewbinding-8.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/haris/.gradle/caches/transforms-3/5fa7af8c7e76568fc7a61eee1d6b1baa/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/haris/.gradle/caches/transforms-3/877b4f5c8b95efbeacb693f1bdd4addb/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
@@ -62,7 +62,7 @@ MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/haris/.gradle/cac
 MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/haris/.gradle/caches/transforms-3/a9600c58fef228fb541fc7d9c3c9ca89/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/haris/.gradle/caches/transforms-3/1af5c407b1cb32f70ed5ab234901ad71/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.autofill:autofill:1.0.0] /Users/haris/.gradle/caches/transforms-3/c8de2204e484dfe4a65aba6c04628d52/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/haris/.gradle/caches/transforms-3/4fc03961e645d2a57bea4b54a83db4c7/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/haris/.gradle/caches/transforms-3/a26963a012421e81ebd6cbd1040bb1c5/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/haris/.gradle/caches/transforms-3/62dde1db6a481d2b14d4ecce3e74fd6d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
@@ -81,7 +81,7 @@ MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/haris/.gradle/
 MERGED from [androidx.activity:activity-compose:1.8.2] /Users/haris/.gradle/caches/transforms-3/21ccc99a9dcb83c048c5b799e7b70091/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/haris/.gradle/caches/transforms-3/5fb6216c4fde47726c1399da94a6c4c9/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/haris/.gradle/caches/transforms-3/d467bbc564ba984db848199f511b6368/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/haris/.gradle/caches/transforms-3/1a11475d9b30a9bffb7e330955c6339e/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/haris/.gradle/caches/transforms-3/3e518ef99d6b83138a93e2cda2875920/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.room:room-runtime:2.6.1] /Users/haris/.gradle/caches/transforms-3/ec9a8c405c4c006ada8c961955e93807/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.room:room-ktx:2.6.1] /Users/haris/.gradle/caches/transforms-3/28a5ff80fc0416cd936513821b18b2b9/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/haris/.gradle/caches/transforms-3/e4a2c6f9a983ec4c53048b2fa8e32064/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -90,7 +90,7 @@ MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/haris/.gradle/caches/transform
 MERGED from [androidx.datastore:datastore:1.0.0] /Users/haris/.gradle/caches/transforms-3/d58b44018094bc00024f19f35457e200/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/haris/.gradle/caches/transforms-3/92f5089d32c618ed24d9aaec59ace6b4/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/haris/.gradle/caches/transforms-3/f781eccbeb54e8494ac6cb9dd26a4851/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/haris/.gradle/caches/transforms-3/2e6b8b3618ef93b2d6962c108aa56712/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/haris/.gradle/caches/transforms-3/45506786410dbaff756632118c0d8fc2/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/haris/.gradle/caches/transforms-3/1f87b5f511775997d6a8a8dcbcb52fef/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/haris/.gradle/caches/transforms-3/e0272d9f6a8cd79256de3554021a4079/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/haris/.gradle/caches/transforms-3/5c50492a8bf36f4a8cc24d2c30b6243b/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
@@ -104,24 +104,24 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/haris/.gradle/cach
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/haris/.gradle/caches/transforms-3/7ea349b91d98194d5d2f213e37667e7c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/haris/.gradle/caches/transforms-3/3caa19738cf76939bdd69feafc0ffd23/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:5:22-63
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:5:22-63
 application
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:7:5-35:19
-INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:7:5-35:19
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:7:5-35:19
+INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:7:5-35:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/haris/.gradle/caches/transforms-3/fd834292c46af5a76fa45c73eb4c20b2/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/haris/.gradle/caches/transforms-3/fd834292c46af5a76fa45c73eb4c20b2/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/haris/.gradle/caches/transforms-3/b59af9710dbfbd4fe36f26eb6ba98ac5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -132,8 +132,8 @@ MERGED from [androidx.window:window:1.0.0] /Users/haris/.gradle/caches/transform
 MERGED from [androidx.window:window:1.0.0] /Users/haris/.gradle/caches/transforms-3/effa9a15e5604254e6eb4584057c655b/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/haris/.gradle/caches/transforms-3/1af5c407b1cb32f70ed5ab234901ad71/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/haris/.gradle/caches/transforms-3/1af5c407b1cb32f70ed5ab234901ad71/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/haris/.gradle/caches/transforms-3/62dde1db6a481d2b14d4ecce3e74fd6d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/haris/.gradle/caches/transforms-3/62dde1db6a481d2b14d4ecce3e74fd6d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/haris/.gradle/caches/transforms-3/ffe50d9d140240c40d8351c60613b455/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
@@ -147,61 +147,61 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/haris/.gra
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/haris/.gradle/caches/transforms-3/71123d552ae9b7324d0e9631ff1e5481/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/haris/.gradle/caches/transforms-3/71123d552ae9b7324d0e9631ff1e5481/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:11:9-41
 	android:hardwareAccelerated
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:15:9-43
 	android:roundIcon
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:12:9-54
 	android:largeHeap
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:16:9-33
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:16:9-33
 	android:icon
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:14:9-48
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:14:9-48
 	android:name
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:8:9-38
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:8:9-38
 activity#com.mergeblast.ui.SplashActivity
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:18:9-27:20
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:18:9-27:20
 	android:screenOrientation
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:22:13-49
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:22:13-49
 	android:exported
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:20:13-36
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:21:13-59
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:21:13-59
 	android:name
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:19:13-46
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:19:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:25:27-74
 activity#com.mergeblast.ui.MainActivity
-ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:29:9-33:55
+ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:29:9-33:55
 	android:screenOrientation
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:32:13-49
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:32:13-49
 	android:windowSoftInputMode
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:33:13-52
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:33:13-52
 	android:exported
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:31:13-37
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml:30:13-44
+		ADDED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml:30:13-44
 uses-sdk
-INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml
-INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml
+INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.2.0] /Users/haris/.gradle/caches/transforms-3/ae1286c42f35cbb368d65f9ce10ff9f8/transformed/viewbinding-8.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.2.0] /Users/haris/.gradle/caches/transforms-3/ae1286c42f35cbb368d65f9ce10ff9f8/transformed/viewbinding-8.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/haris/.gradle/caches/transforms-3/5fa7af8c7e76568fc7a61eee1d6b1baa/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
@@ -318,8 +318,8 @@ MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/haris/.gradle/caches/transform
 MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/haris/.gradle/caches/transforms-3/1af5c407b1cb32f70ed5ab234901ad71/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.autofill:autofill:1.0.0] /Users/haris/.gradle/caches/transforms-3/c8de2204e484dfe4a65aba6c04628d52/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.autofill:autofill:1.0.0] /Users/haris/.gradle/caches/transforms-3/c8de2204e484dfe4a65aba6c04628d52/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/haris/.gradle/caches/transforms-3/4fc03961e645d2a57bea4b54a83db4c7/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/haris/.gradle/caches/transforms-3/4fc03961e645d2a57bea4b54a83db4c7/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/haris/.gradle/caches/transforms-3/a26963a012421e81ebd6cbd1040bb1c5/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
@@ -356,8 +356,8 @@ MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/haris/.gradle/caches/t
 MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/haris/.gradle/caches/transforms-3/5fb6216c4fde47726c1399da94a6c4c9/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/haris/.gradle/caches/transforms-3/d467bbc564ba984db848199f511b6368/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/haris/.gradle/caches/transforms-3/d467bbc564ba984db848199f511b6368/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/haris/.gradle/caches/transforms-3/1a11475d9b30a9bffb7e330955c6339e/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/haris/.gradle/caches/transforms-3/1a11475d9b30a9bffb7e330955c6339e/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/haris/.gradle/caches/transforms-3/3e518ef99d6b83138a93e2cda2875920/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/haris/.gradle/caches/transforms-3/3e518ef99d6b83138a93e2cda2875920/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] /Users/haris/.gradle/caches/transforms-3/ec9a8c405c4c006ada8c961955e93807/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] /Users/haris/.gradle/caches/transforms-3/ec9a8c405c4c006ada8c961955e93807/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-ktx:2.6.1] /Users/haris/.gradle/caches/transforms-3/28a5ff80fc0416cd936513821b18b2b9/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
@@ -374,8 +374,8 @@ MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/har
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/haris/.gradle/caches/transforms-3/92f5089d32c618ed24d9aaec59ace6b4/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/haris/.gradle/caches/transforms-3/f781eccbeb54e8494ac6cb9dd26a4851/transformed/runtime-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/haris/.gradle/caches/transforms-3/f781eccbeb54e8494ac6cb9dd26a4851/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/haris/.gradle/caches/transforms-3/2e6b8b3618ef93b2d6962c108aa56712/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/haris/.gradle/caches/transforms-3/2e6b8b3618ef93b2d6962c108aa56712/transformed/annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/haris/.gradle/caches/transforms-3/45506786410dbaff756632118c0d8fc2/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/haris/.gradle/caches/transforms-3/45506786410dbaff756632118c0d8fc2/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/haris/.gradle/caches/transforms-3/1f87b5f511775997d6a8a8dcbcb52fef/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/haris/.gradle/caches/transforms-3/1f87b5f511775997d6a8a8dcbcb52fef/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/haris/.gradle/caches/transforms-3/e0272d9f6a8cd79256de3554021a4079/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
@@ -401,9 +401,9 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/haris/.gradle/caches/transforms-3/3caa19738cf76939bdd69feafc0ffd23/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/haris/.gradle/caches/transforms-3/3caa19738cf76939bdd69feafc0ffd23/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/haris/Downloads/MergeBlastGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/haris/Documents/GitHub/mergeBlastNew/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [androidx.media3:media3-common:1.2.1] /Users/haris/.gradle/caches/transforms-3/4ddcbf51dc0260e82735be61ea73e5e5/transformed/media3-common-1.2.1/AndroidManifest.xml:22:5-79
 MERGED from [androidx.media3:media3-exoplayer:1.2.1] /Users/haris/.gradle/caches/transforms-3/2b95a2e3e011181c3023cf17763d37d1/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:22:5-79
@@ -445,25 +445,25 @@ ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/haris/.gradle/caches/transforms
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/haris/.gradle/caches/transforms-3/1af5c407b1cb32f70ed5ab234901ad71/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 permission#com.mergeblast.game.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 uses-permission#com.mergeblast.game.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/haris/.gradle/caches/transforms-3/b62ca2e656ad6959b4b61e0a547e9223/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] /Users/haris/.gradle/caches/transforms-3/7adffd57b8fb70831fd86c7690f259d3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/haris/.gradle/caches/transforms-3/62dde1db6a481d2b14d4ecce3e74fd6d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
 	android:value
