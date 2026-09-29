@@ -30,6 +30,7 @@ import com.mergeblast.ui.leaderboard.LeaderboardScreen
 import com.mergeblast.ui.menu.MenuScreen
 import com.mergeblast.ui.quest.QuestScreen
 import com.mergeblast.ui.shop.ShopScreen
+import com.mergeblast.ui.shop.CoinShopScreen
 import com.mergeblast.viewmodel.GameViewModel
 import com.mergeblast.viewmodel.GameViewModelFactory
 
@@ -81,8 +82,23 @@ fun SplashScreen() {
 
 // ─── Main Activity ────────────────────────────────────────────────────────────
 class MainActivity : ComponentActivity() {
+    private val billing by lazy { BillingManager(this, viewModel::grantPurchase, viewModel::syncPurchases) }
+
+    override fun onResume() {
+        super.onResume()
+        billing.connect()
+    }
+
+    override fun onDestroy() {
+        billing.close()
+        super.onDestroy()
+    }
+
     private val viewModel: GameViewModel by viewModels {
-        GameViewModelFactory(MergeBlastApp.INSTANCE.repository)
+        GameViewModelFactory(
+            MergeBlastApp.INSTANCE.container.repository,
+            MergeBlastApp.INSTANCE.container.soundManager
+        )
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -90,7 +106,8 @@ class MainActivity : ComponentActivity() {
         hideSystemUI()
         setContent {
             MaterialTheme {
-                MergeBlastNavigation(viewModel = viewModel)
+                val rewardedAds = remember { RewardedAds(this@MainActivity) }
+                MergeBlastNavigation(viewModel, rewardedAds, billing)
             }
         }
     }
@@ -98,9 +115,13 @@ class MainActivity : ComponentActivity() {
 
 // ─── Navigation ───────────────────────────────────────────────────────────────
 @Composable
-fun MergeBlastNavigation(viewModel: GameViewModel) {
+fun MergeBlastNavigation(viewModel: GameViewModel, rewardedAds: RewardedAds, billing: BillingManager) {
     val navController = rememberNavController()
     val tutorialDone by viewModel.tutorialDone.collectAsState(initial = true)
+    val purchases by viewModel.purchases.collectAsState(initial = emptyList())
+    val now = System.currentTimeMillis()
+    val adFree = purchases.any { it.active && (it.productId == "remove_ads" || it.productId == "vip_monthly" ||
+        (it.productId == "starter_pack" && now - it.purchasedAt < 259_200_000L)) }
 
     // Determine start destination — show tutorial only on first launch
     val startDest = if (!tutorialDone) "tutorial" else "menu"
@@ -129,9 +150,21 @@ fun MergeBlastNavigation(viewModel: GameViewModel) {
             exitTransition   = { fadeOut(tween(200)) }
         ) {
             MenuScreen(
+                adLoading = rewardedAds.busy,
+                onWatchAd = { onUnavailable ->
+                    rewardedAds.watch(
+                        onReward = { viewModel.addCoinsFromAd(100) },
+                        onUnavailable = onUnavailable
+                    )
+                },
+                showAdPrivacy = rewardedAds.privacyRequired,
+                onAdPrivacy = { rewardedAds.showPrivacyOptions() },
+                adsRemoved = adFree,
+                onRemoveAds = { billing.buy("remove_ads") },
                 viewModel    = viewModel,
                 onPlay       = { navController.navigate("game") },
                 onShop       = { navController.navigate("shop") },
+                onCoinShop   = { navController.navigate("coin_shop") { launchSingleTop = true } },
                 onQuest      = { navController.navigate("quest") },
                 onLeaderboard = { navController.navigate("leaderboard") }
             )
@@ -142,7 +175,13 @@ fun MergeBlastNavigation(viewModel: GameViewModel) {
             enterTransition = { slideInVertically(tween(350)) { it } + fadeIn(tween(350)) },
             exitTransition   = { slideOutVertically(tween(250)) { it } + fadeOut(tween(250)) }
         ) {
-            GameScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+            GameScreen(
+                viewModel = viewModel,
+                onBack = { navController.popBackStack() },
+                prepareAd = { if (!adFree) rewardedAds.prepareInterstitial() },
+                isAdReady = { !adFree && rewardedAds.isInterstitialReady() },
+                showAd = { finished -> rewardedAds.showInterstitial(finished) }
+            )
         }
 
         composable(
@@ -151,6 +190,14 @@ fun MergeBlastNavigation(viewModel: GameViewModel) {
             exitTransition   = { slideOutHorizontally(tween(250)) { it } + fadeOut() }
         ) {
             ShopScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+        }
+
+        composable(
+            route = "coin_shop",
+            enterTransition = { slideInHorizontally(tween(320)) { it } + fadeIn() },
+            exitTransition = { slideOutHorizontally(tween(250)) { it } + fadeOut() }
+        ) {
+            CoinShopScreen(viewModel, billing.offers.associate { it.product.id to it.price }, billing::buy, billing.message, { billing.message = null }, { navController.popBackStack() }, billing::restorePurchases, billing::manageSubscription, billing.restoring)
         }
 
         composable(

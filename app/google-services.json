@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706047594744",
+    "project_id": "mergeblast-ef92b",
+    "storage_bucket": "mergeblast-ef92b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706047594744:android:b1141315cac9a72c6aab0d",
+        "android_client_info": {
+          "package_name": "com.mergeblast.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTiwgRglmOABL9mdNKY6ozUMH_5hzbOx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

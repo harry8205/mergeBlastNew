@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.MergeBlast" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.MergeBlast" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/accent_teal</item>
         <item name="colorPrimaryVariant">@color/bg_dark</item>
         <item name="colorOnPrimary">@color/text_primary</item>
@@ -13,9 +13,10 @@
         <item name="android:windowBackground">@color/bg_dark</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
         <item name="android:windowFullscreen">true</item>
     </style>
+
+    <style name="Theme.MergeBlast" parent="Base.Theme.MergeBlast" />
 
     <style name="Theme.MergeBlast.Splash" parent="Theme.MergeBlast">
         <item name="android:windowBackground">@color/bg_dark</item>
